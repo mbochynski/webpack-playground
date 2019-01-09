@@ -1,0 +1,23 @@
+{
+  "name": "webpack-playground",
+  "version": "1.0.0",
+  "description": "My webpack starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbochynski/webpack-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbochynski/webpack-playground/issues"
+  },
+  "homepage": "https://github.com/mbochynski/webpack-playground#readme",
+  "devDependencies": {
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1"
+  }
+}
