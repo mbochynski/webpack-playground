@@ -2,10 +2,11 @@
   "name": "webpack-playground",
   "version": "1.0.0",
   "description": "My webpack starter",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mbochynski/webpack-playground.git"
@@ -19,5 +20,9 @@
   "devDependencies": {
     "webpack": "^4.28.1",
     "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "npm": "^6.7.0"
   }
 }
