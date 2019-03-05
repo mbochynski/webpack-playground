@@ -8,9 +8,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "watch": "webpack --watch",
-    "start": "webpack-dev-server --open"
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js"
   },
   "private": true,
   "repository": {
@@ -30,7 +29,8 @@
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.1",
-    "webpack-cli": "^3.2.1"
+    "webpack-cli": "^3.2.1",
+    "webpack-merge": "^4.2.1"
   },
   "dependencies": {
     "lodash": "^4.17.11",
